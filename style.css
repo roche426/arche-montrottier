@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: "Georgia", "Times New Roman", ui-serif, serif;
+    color: #1B4332;
+    background: #F3EFEB;
+    hyphens: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: .05em;
+}
+
+.container {
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.title-menu {
+    margin: 10px 0 6px;
+    color: #AF4327;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-title-line {
+    width: 120px;
+    height: 3px;
+    background-color: #e8a23b;
+    border-radius: 2px;
+}
+
+.menu-title-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #e8a23b;
+    border-radius: 50%;
+}
+
+.container-menu {
+    position: relative;
+    display: grid;
+    gap: 18px;
+    margin-top: 12px;
+}
+
+.menu-theme {
+    padding: 8px 6px;
+
+}
+
+.menu-theme-title {
+    margin: 0 0 4px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item-label {
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item-subtitle {
+    grid-column: 1 / -1;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+.price {
+    font-weight: 700;
+    white-space: nowrap;
+    margin-left: 5px;
+}
+
+.item-description {
+    grid-column: 1 / -1;
+    padding: 0;
+    text-align: center;
+    line-height: 1.4;
+    color: #5A3426;
+    font-size: 13px;
+}
+
+.extras {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+@media (min-width: 1024px) {
+    .container-menu {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px 64px;
+        padding: 8px 22px 0;
+    }
+
+    .container-menu::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        border-left: 2px dotted #F2B556;
+        opacity: .9;
+    }
+
+    .menu-theme {
+        padding: 6px 10px;
+    }
+
+    .extras {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0 50px;
+        justify-content: center;
+        position: relative;
+    }
+
+    .extras::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 35%;
+        border-top: 2px dotted #F2B556;
+    }
+}

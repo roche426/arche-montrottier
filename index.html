@@ -1,161 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Créperie L'Arche - Restaurant</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Crêperie L’Arche – À GRIGNOTER</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="color-scheme" content="light only">
 </head>
 <body>
+<main class="container">
     <header>
-        <nav class="navbar">
-            <div class="logo-container">
-                <h1 class="restaurant-name">🥐 CRÉPERIE L'ARCHE</h1>
-                <p class="subtitle">MONTROTTIER</p>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#presentation" class="nav-link">Présentation</a></li>
-                <li><a href="#menu" class="nav-link">Menu</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="brand" aria-label="Crêperie L’Arche Montrottier">
+            <img src="logo.png" alt="logo Crêperie L’Arche Montrottier" class="logo"/>
+        </div>
+
+        <div class="title-wrapper">
+            <span class="menu-title-line"></span><span class="menu-title-dot"></span>
+            <h1 class="title-menu">À GRIGNOTER</h1>
+            <span class="menu-title-dot"></span><span class="menu-title-line"></span>
+        </div>
     </header>
 
-    <main>
-        <!-- SECTION PRÉSENTATION -->
-        <section id="presentation" class="section">
-            <div class="container">
-                <div class="tagline">
-                    <h2>TOUTE L'ANNÉE, ON VOUS RÉGALE !</h2>
-                </div>
+    <section class="container-menu" aria-label="Carte À grignoter">
+        <article class="menu-theme" aria-labelledby="planches">
+            <h2 class="menu-theme-title" id="planches">Les planches</h2>
+            <p class="menu-item-subtitle">2 personnes (plats)</p>
+            <p class="menu-item-subtitle">3 – 4 personnes (apéro)</p>
 
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">🎉</div>
-                        <h3>ÉVÉNEMENTS</h3>
-                        <p>Privatisation du restaurant</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🍔</div>
-                        <h3>BURGERS MAISON</h3>
-                        <p>Les soirs de match</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🍽️</div>
-                        <h3>MENU DU JOUR</h3>
-                        <p>Mardi - Vendredi midi</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🥞</div>
-                        <h3>BRUNCH</h3>
-                        <p>Chaque 2e dimanche du mois</p>
+            <div class="items">
+                <div class="item">
+                    <p class="item-label">
+                        PLANCHE DÉCOUVERTE
+                        <span class="price">17,00€</span>
+                    </p>
+                    <p class="menu-item-subtitle">(Charcuterie d’Antan)</p>
+                    <div class="item-description">
+                        4 charcuteries 200g et 2 fromages régionaux 100g, pickles,<br> pain, beurre.
                     </div>
                 </div>
 
-                <div class="specialties">
-                    <h3>NOS SPÉCIALITÉS</h3>
-                    <p>CRÊPES - BURGERS - BRUNCH</p>
-                </div>
-
-                <div class="about-section">
-                    <h3>À Propos de L'Arche</h3>
-                    <p>Bienvenue à la Créperie L'Arche, votre destination privilégiée à Montrottier pour déguster des crêpes authentiques et savoureuses. Notre restaurant vous accueille toute l'année pour des moments inoubliables en famille ou entre amis.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- SECTION MENU -->
-        <section id="menu" class="section">
-            <div class="container">
-                <h2>Notre Menu</h2>
-                
-                <div class="menu-section">
-                    <h3>Crêpes Sucrées</h3>
-                    <div class="menu-item">
-                        <h4>Crêpe Nutella</h4>
-                        <p class="price">6€</p>
-                        <p class="description">Crêpe garnie de Nutella et noisettes</p>
-                    </div>
-                    <div class="menu-item">
-                        <h4>Crêpe Confiture</h4>
-                        <p class="price">5€</p>
-                        <p class="description">Crêpe avec confiture maison</p>
-                    </div>
-                    <div class="menu-item">
-                        <h4>Crêpe Complète</h4>
-                        <p class="price">7€</p>
-                        <p class="description">Crêpe œuf, jambon, fromage, champignons</p>
+                <div class="item">
+                    <p class="item-label">PLANCHE CHARCUTERIE <span class="price">18,00€</span></p>
+                    <div class="item-description">
+                        Jambon cru 100g, saucisson sec 100g, coppa ou prosciutto 100g,<br> pickles, pain.
                     </div>
                 </div>
 
-                <div class="menu-section">
-                    <h3>Burgers Maison</h3>
-                    <div class="menu-item">
-                        <h4>Burger Simple</h4>
-                        <p class="price">9€</p>
-                        <p class="description">Pain maison, steak, laitue, tomate, oignon</p>
-                    </div>
-                    <div class="menu-item">
-                        <h4>Burger Gourmand</h4>
-                        <p class="price">12€</p>
-                        <p class="description">Double steak, bacon, fromage, sauce spéciale</p>
+                <div class="item">
+                    <p class="item-label">PLANCHE FROMAGE <span class="price">15,00€</span></p>
+                    <div class="item-description">
+                        Abondance 100g, reblochon 100g, bleu d’Auvergne 100g,<br> tranche de pain.
                     </div>
                 </div>
 
-                <div class="menu-section">
-                    <h3>Brunch</h3>
-                    <div class="menu-item">
-                        <h4>Brunch Complet</h4>
-                        <p class="price">15€</p>
-                        <p class="description">Œufs, bacon, crêpes, fruits frais, jus de fruit</p>
+                <div class="item">
+                    <p class="item-label">PLANCHE MIXTE <span class="price">20,00€</span></p>
+                    <div class="item-description">
+                        Jambon cru 100g, saucisson 100g, coppa 100g,<br> abondance 100g, reblochon 100g,<br> bleu
+                        d’Auvergne 100g, pickles, pain.
                     </div>
                 </div>
             </div>
-        </section>
+        </article>
 
-        <!-- SECTION CONTACT -->
-        <section id="contact" class="section">
-            <div class="container">
-                <h2>Nous Contacter</h2>
-                
-                <div class="contact-grid">
-                    <div class="contact-info">
-                        <h3>📍 Adresse</h3>
-                        <p>Créperie L'Arche<br>Montrottier<br>France</p>
-                    </div>
-                    <div class="contact-info">
-                        <h3>📞 Téléphone</h3>
-                        <p><a href="tel:+33123456789">+33 1 23 45 67 89</a></p>
-                    </div>
-                    <div class="contact-info">
-                        <h3>📧 Email</h3>
-                        <p><a href="mailto:contact@creperie-larche.fr">contact@creperie-larche.fr</a></p>
-                    </div>
+        <article class="menu-theme" aria-labelledby="incontournables">
+            <h2 class="menu-theme-title" id="incontournables">Les incontournables</h2>
+            <div class="items">
+                <div class="item">
+                    <p class="item-label">TERRINE MAISON OU RÉGIONALE</p>
+                    <p class="menu-item-subtitle">
+                        Traditionnel 100g
+                        <span class="price">5,50€ </span>
+                        <br>
+                        Cèpes 100g
+                        <span class="price">6,50€ </span>
+                    </p>
                 </div>
 
-                <div class="hours-section">
-                    <h3>Horaires d'Ouverture</h3>
-                    <div class="hours-grid">
-                        <div class="hour-item">
-                            <p><strong>Lundi - Vendredi</strong></p>
-                            <p>11h30 - 14h00 / 18h00 - 22h00</p>
-                        </div>
-                        <div class="hour-item">
-                            <p><strong>Samedi</strong></p>
-                            <p>12h00 - 22h00</p>
-                        </div>
-                        <div class="hour-item">
-                            <p><strong>Dimanche</strong></p>
-                            <p>12h00 - 21h00</p>
-                        </div>
-                    </div>
+                <div class="item">
+                    <p class="item-label">SARDINES à l’ancienne <br> aux échalotes de Bretagne
+                        <span class="price">11,00€</span>
+                    </p>
+                    <div class="item-description">Beurre demi-sel et pain de campagne.</div>
+                </div>
+
+                <div class="item">
+                    <p class="item-label">
+                        SAMOUSSAS/
+                        <span class="price">6,50€</span>
+                    </p>
+                    <div class="menu-item-subtitle">(Maison – 4 pièces)</div>
+                </div>
+
+                <div class="item">
+                    <p class="item-label">
+                        NEMS
+                        <span class="price">6,50€</span>
+                    </p>
+                    <div class="menu-item-subtitle">(Maison – 4 pièces)</div>
+                </div>
+
+                <div class="item">
+                    <p class="item-label">
+                        FALAFELS
+                        <span class="price">7,00€</span>
+                    </p>
+                    <div class="menu-item-subtitle">(Maison – 6 pièces)</div>
+                </div>
+
+                <div class="item">
+                    <p class="item-label">
+                        OS À MOELLE
+                        <span class="price">9,00€</span>
+                    </p>
+                </div>
+
+                <div class="item">
+                    <p class="item-label">
+                        SAUCISSON RÉGIONAL
+                        <span class="price">17,00€</span>
+                    </p>
+                    <div class="menu-item-subtitle">(Charcuterie d’Antan)</div>
                 </div>
             </div>
-        </section>
-    </main>
+        </article>
+    </section>
 
-    <footer>
-        <p>&copy; 2026 Créperie L'Arche. Tous droits réservés.</p>
-    </footer>
+    <section class="extras" aria-label="Accompagnements">
+        <div>
+            <p class="item-label">
+                SAUCISSON
+                <span class="price">12,00€</span>
+            </p>
+        </div>
+        <div>
+            <p class="item-label">
+                CHIPS
+                <span class="price">2,00€</span>
+            </p>
+        </div>
+        <div>
+            <p class="item-label">
+                FRITES ET SAUCES MAISON
+            <p class="menu-item-subtitle">
+                (petite 2,50€ – grande 4,50€)
+            </p>
+        </div>
+    </section>
+
+    <!-- Mentions en pied -->
+    <div class="menu-item-subtitle">
+        <p>Origine des viandes : France <br> Prix nets TTC – service compris · Liste des allergènes disponible sur
+            demande.</p>
+    </div>
+</main>
 </body>
 </html>
