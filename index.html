@@ -4,154 +4,610 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Crêperie L’Arche – À GRIGNOTER</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+          rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <meta name="color-scheme" content="light only">
 </head>
+
 <body>
 <main class="container">
-    <header>
-        <div class="brand" aria-label="Crêperie L’Arche Montrottier">
-            <img src="logo.png" alt="logo Crêperie L’Arche Montrottier" class="logo"/>
-        </div>
-
-        <div class="title-wrapper">
-            <span class="menu-title-line"></span><span class="menu-title-dot"></span>
-            <h1 class="title-menu">À GRIGNOTER</h1>
-            <span class="menu-title-dot"></span><span class="menu-title-line"></span>
-        </div>
-    </header>
-
-    <section class="container-menu" aria-label="Carte À grignoter">
-        <article class="menu-theme" aria-labelledby="planches">
-            <h2 class="menu-theme-title" id="planches">Les planches</h2>
-            <p class="menu-item-subtitle">2 personnes (plats)</p>
-            <p class="menu-item-subtitle">3 – 4 personnes (apéro)</p>
-
-            <div class="items">
-                <div class="item">
-                    <p class="item-label">
-                        PLANCHE DÉCOUVERTE
-                        <span class="price">17,00€</span>
-                    </p>
-                    <p class="menu-item-subtitle">(Charcuterie d’Antan)</p>
-                    <div class="item-description">
-                        4 charcuteries 200g et 2 fromages régionaux 100g, pickles,<br> pain, beurre.
-                    </div>
-                </div>
-
-                <div class="item">
-                    <p class="item-label">PLANCHE CHARCUTERIE <span class="price">18,00€</span></p>
-                    <div class="item-description">
-                        Jambon cru 100g, saucisson sec 100g, coppa ou prosciutto 100g,<br> pickles, pain.
-                    </div>
-                </div>
-
-                <div class="item">
-                    <p class="item-label">PLANCHE FROMAGE <span class="price">15,00€</span></p>
-                    <div class="item-description">
-                        Abondance 100g, reblochon 100g, bleu d’Auvergne 100g,<br> tranche de pain.
-                    </div>
-                </div>
-
-                <div class="item">
-                    <p class="item-label">PLANCHE MIXTE <span class="price">20,00€</span></p>
-                    <div class="item-description">
-                        Jambon cru 100g, saucisson 100g, coppa 100g,<br> abondance 100g, reblochon 100g,<br> bleu
-                        d’Auvergne 100g, pickles, pain.
-                    </div>
-                </div>
+    <!-- SECTION MENU KRAMPOUZ -->
+    <div aria-label="Carte krampouz">
+        <div class="menu-header">
+            <div class="brand" aria-label="Crêperie L’Arche Montrottier">
+                <img src="logo.png" alt="logo Crêperie L’Arche Montrottier" class="logo"/>
             </div>
-        </article>
 
-        <article class="menu-theme" aria-labelledby="incontournables">
-            <h2 class="menu-theme-title" id="incontournables">Les incontournables</h2>
-            <div class="items">
-                <div class="item">
-                    <p class="item-label">TERRINE MAISON OU RÉGIONALE</p>
-                    <p class="menu-item-subtitle">
-                        Traditionnel 100g
-                        <span class="price">5,50€ </span>
-                        <br>
-                        Cèpes 100g
-                        <span class="price">6,50€ </span>
-                    </p>
-                </div>
-
-                <div class="item">
-                    <p class="item-label">SARDINES à l’ancienne <br> aux échalotes de Bretagne
-                        <span class="price">11,00€</span>
-                    </p>
-                    <div class="item-description">Beurre demi-sel et pain de campagne.</div>
-                </div>
-
-                <div class="item">
-                    <p class="item-label">
-                        SAMOUSSAS/
-                        <span class="price">6,50€</span>
-                    </p>
-                    <div class="menu-item-subtitle">(Maison – 4 pièces)</div>
-                </div>
-
-                <div class="item">
-                    <p class="item-label">
-                        NEMS
-                        <span class="price">6,50€</span>
-                    </p>
-                    <div class="menu-item-subtitle">(Maison – 4 pièces)</div>
-                </div>
-
-                <div class="item">
-                    <p class="item-label">
-                        FALAFELS
-                        <span class="price">7,00€</span>
-                    </p>
-                    <div class="menu-item-subtitle">(Maison – 6 pièces)</div>
-                </div>
-
-                <div class="item">
-                    <p class="item-label">
-                        OS À MOELLE
-                        <span class="price">9,00€</span>
-                    </p>
-                </div>
-
-                <div class="item">
-                    <p class="item-label">
-                        SAUCISSON RÉGIONAL
-                        <span class="price">17,00€</span>
-                    </p>
-                    <div class="menu-item-subtitle">(Charcuterie d’Antan)</div>
-                </div>
+            <div class="title-wrapper">
+                <span class="menu-title-line"></span><span class="menu-title-dot"></span>
+                <h1 class="title-menu">KRAMPOUZ</h1>
+                <span class="menu-title-dot"></span><span class="menu-title-line"></span>
             </div>
-        </article>
-    </section>
+        </div>
 
-    <section class="extras" aria-label="Accompagnements">
-        <div>
-            <p class="item-label">
-                SAUCISSON
-                <span class="price">12,00€</span>
-            </p>
-        </div>
-        <div>
-            <p class="item-label">
-                CHIPS
-                <span class="price">2,00€</span>
-            </p>
-        </div>
-        <div>
-            <p class="item-label">
-                FRITES ET SAUCES MAISON
-            <p class="menu-item-subtitle">
-                (petite 2,50€ – grande 4,50€)
-            </p>
-        </div>
-    </section>
+        <section class="container-menu" aria-label="menus">
+            <div class="menu-multiple">
+                <!-- SECTION MENU GALETTE -->
+                <article class="menu-theme" aria-labelledby="galettes">
+                    <h2 class="menu-theme-title">Galettes</h2>
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label">LA COMPLÈTE <span class="price">11,50€</span></p>
+                            <div class="item-description">Œufs, fromage, jambon blanc, salade.</div>
+                        </div>
 
-    <!-- Mentions en pied -->
-    <div class="menu-item-subtitle">
-        <p>Origine des viandes : France <br> Prix nets TTC – service compris · Liste des allergènes disponible sur
-            demande.</p>
+                        <div class="item">
+                            <p class="item-label">LA BACON <span class="price">13,50€</span></p>
+                            <div class="item-description">Bacon, oeufs, fromage, aïoli à l’ail noir, salade,
+                                avocat.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">LA SAUMON <span class="price">14,50€</span></p>
+                            <div class="item-description">Saumon fumé, citron, épinards, crème fraiche, salade.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">LA MONTAGNARDE <span class="price">15€</span></p>
+                            <div class="item-description">Raclette, jambon cru, pomme de terre à l’ail, oignon
+                                confits, cornichons, salade.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">LA CHÈVRE <span class="price">13,50€</span></p>
+                            <div class="item-description">Épinards, bûche de chèvre, tomates cerises rôties, avocat,
+                                pignons de pin, salade.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">LA BOURGUIGNONNE <span class="price">15,50€</span></p>
+                            <div class="item-description">Effiloché de boeuf au vin rouge, champignons, fromage,
+                                pommes de terre à l’ail, salade.
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="separator-line"></div>
+
+                <article class="menu-theme" aria-labelledby="menu_enfant">
+                    <!-- SECTION MENU ENFANTS -->
+                    <h2 class="menu-theme-title">
+                        Menu Enfant <span class="price">9,50€</span><br>
+                    </h2>
+                    <h3 class="item-label">Galette + boisson + mini crêpe</h3>
+
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label">GALETTES AU CHOIX:</p>
+                            <div class="item-description">
+                                Jambon blanc et fromage<br>
+                                Poulet fumé et fromage<br>
+                                Épinards et chèvre
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">“TU ES UN PETIT CHEF”</p>
+                            <div class="item-description">Compose ta galette</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">CRÊPES SUCRÉ</p>
+                            <div class="item-description">
+                                Beurre et sirop d’érable ou miel local 5,00€<br>
+                                Pâte à tartiner 5,50€<br>
+                                Caramel beurre salé 5,50€
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="menu-multiple">
+                <!-- SECTION COMPOSE SALADE -->
+                <article class="menu-theme" aria-labelledby="compose_salade">
+                    <h2 class="menu-theme-title">Compose ta salade</h2>
+
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label">CHOISI LA BASE DE TA SALADE<span class="price">5,50€</span></p>
+                            <div class="item-description">Salade verte et sauces au choix.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label"> CHOISI TES LÉGUMES <span class="price">+1,00€</span></p>
+                            <div class="item-description">Pommes de terre à l’ail, épinards, avocat, oignons
+                                confits, tomates rôties.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label"> CHOIX DES PROTÉINES <span class="price">+2,50€</span></p>
+                            <div class="item-description">Jambon blanc, jambon cru, saumon fumé, effiloché de boeuf,
+                                poulet fumé, oeuf.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label"> CHOIX DES FROMAGES <span class="price">+1,50€</span></p>
+                            <div class="item-description">Chèvre, raclette, cheddar affiné, ricotta, fêta.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">CHOIX DES EXTRAS <span class="price">+1,00€</span></p>
+                            <div class="item-description">
+                                Crème fraiche, pignon de pain, citron, aïoli à l’ail noir<br>
+                                Beurre, citron, sucre
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="menu-multiple">
+                <!-- SECTION COMPOSE GALETTE -->
+                <article class="menu-theme" aria-labelledby="compose_galette">
+                    <h2 class="menu-theme-title">Compose ta galette</h2>
+
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label">CHOISI LA BASE DE TA GALETTE <span class="price">5,50€</span></p>
+                            <div class="item-description">Salade verte et sauces au choix.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">CHOISI TES LÉGUMES <span class="price">+1,00€</span></p>
+                            <div class="item-description">Pommes de terre, tomates, avocat, oignons confits, tomates
+                                rôties, champignons, cornichons.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">CHOIX DES PROTÉINES <span class="price">+2,50€</span></p>
+                            <div class="item-description">Jambon blanc, jambon cru, saumon fumé, effiloché de bœuf,
+                                poulet mariné, œuf.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">CHOIX DES FROMAGES <span class="price">+1,50€</span></p>
+                            <div class="item-description">Chèvre, raclette, cheddar affiné.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">CHOIX DES EXTRAS <span class="price">+1,00€</span></p>
+                            <div class="item-description">Crème fraîche, pignons de pain, citron, miel, ail à l’ail
+                                noir.
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="separator-line"></div>
+
+                <article class="menu-theme" aria-labelledby="crepes">
+                    <h2 class="menu-theme-title">Crêpes au froment</h2>
+
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label">CLASSIQUE <span class="price">5,00€</span></p>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">PÂTE À TARTINER <span class="price">6,50€</span></p>
+                            <div class="item-description">Crispy maison et chantilly maison.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">MIEL ET NOISETTES <span class="price">5,50€</span></p>
+                            <div class="item-description">Cannelle, chantilly maison.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">BANOFFEE <span class="price">6,50€</span></p>
+                            <div class="item-description">Caramel beurre salé, banane et chantilly maison.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">CHOCOLAT <span class="price">6,50€</span></p>
+                            <div class="item-description">Chocolat noir 75%, glace vanille, amandes.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label" style="color: #AF4327!important;">EXTRAS</p>
+                            <div class="item-description">
+                                Chocolat noir 75%, caramel beurre salé, glace, amandes, banane , cannelle, crispy
+                                maison, noisettes, chantilly maison.
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class="menu-item-subtitle">
+            <p>Origine des viandes : France <br> Prix nets TTC – service compris · Liste des allergènes disponible sur demande.</p>
+        </div>
+    </div>
+
+    <!-- SECTION MENU A GRINOTER -->
+    <div aria-label="Carte À grignoter">
+        <div class="menu-header">
+            <div class="brand" aria-label="Crêperie L’Arche Montrottier">
+                <img src="logo.png" alt="logo Crêperie L’Arche Montrottier" class="logo"/>
+            </div>
+
+            <div class="title-wrapper">
+                <span class="menu-title-line"></span><span class="menu-title-dot"></span>
+                <h1 class="title-menu">À GRIGNOTER</h1>
+                <span class="menu-title-dot"></span><span class="menu-title-line"></span>
+            </div>
+        </div>
+
+        <section class="container-menu separator">
+            <article class="menu-theme" aria-labelledby="planches">
+                <!-- SECTION MENU PLANCHES -->
+                <h2 class="menu-theme-title">Les planches</h2>
+                <p class="menu-item-subtitle">2 personnes (plats)</p>
+                <p class="menu-item-subtitle">3 – 4 personnes (apéro)</p>
+
+                <div class="items">
+                    <div class="item">
+                        <p class="item-label">
+                            PLANCHE DÉCOUVERTE
+                            <span class="price">17,00€</span>
+                        </p>
+                        <p class="menu-item-subtitle">(Charcuterie d’Antan)</p>
+                        <div class="item-description">
+                            4 charcuteries 200g et 2 fromages régionaux 100g, pickles,<br> pain, beurre.
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <p class="item-label">PLANCHE CHARCUTERIE <span class="price">18,00€</span></p>
+                        <div class="item-description">
+                            Jambon cru 100g, saucisson sec 100g, coppa ou prosciutto 100g,<br> pickles, pain.
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <p class="item-label">PLANCHE FROMAGE <span class="price">15,00€</span></p>
+                        <div class="item-description">
+                            Abondance 100g, reblochon 100g, bleu d’Auvergne 100g,<br> tranche de pain.
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <p class="item-label">PLANCHE MIXTE <span class="price">20,00€</span></p>
+                        <div class="item-description">
+                            Jambon cru 100g, saucisson 100g, coppa 100g,<br> abondance 100g, reblochon 100g,<br>
+                            bleu
+                            d’Auvergne 100g, pickles, pain.
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="menu-theme" aria-labelledby="incontournables">
+                <!-- SECTION MENU INCONTOURNABLES -->
+                <h2 class="menu-theme-title">Les incontournables</h2>
+                <div class="items">
+                    <div class="item">
+                        <p class="item-label">TERRINE MAISON OU RÉGIONALE</p>
+                        <p class="menu-item-subtitle">
+                            Traditionnel 100g
+                            <span class="price">5,50€ </span>
+                            <br>
+                            Cèpes 100g
+                            <span class="price">6,50€ </span>
+                        </p>
+                    </div>
+
+                    <div class="item">
+                        <p class="item-label">SARDINES à l’ancienne <br> aux échalotes de Bretagne
+                            <span class="price">11,00€</span>
+                        </p>
+                        <div class="item-description">Beurre demi-sel et pain de campagne.</div>
+                    </div>
+
+                    <div class="item">
+                        <p class="item-label">
+                            SAMOUSSAS/
+                            <span class="price">6,50€</span>
+                        </p>
+                        <div class="menu-item-subtitle">(Maison – 4 pièces)</div>
+                    </div>
+
+                    <div class="item">
+                        <p class="item-label">
+                            NEMS
+                            <span class="price">6,50€</span>
+                        </p>
+                        <div class="menu-item-subtitle">(Maison – 4 pièces)</div>
+                    </div>
+
+                    <div class="item">
+                        <p class="item-label">
+                            FALAFELS
+                            <span class="price">7,00€</span>
+                        </p>
+                        <div class="menu-item-subtitle">(Maison – 6 pièces)</div>
+                    </div>
+
+                    <div class="item">
+                        <p class="item-label">
+                            OS À MOELLE
+                            <span class="price">9,00€</span>
+                        </p>
+                    </div>
+
+                    <div class="item">
+                        <p class="item-label">
+                            SAUCISSON RÉGIONAL
+                            <span class="price">17,00€</span>
+                        </p>
+                        <div class="menu-item-subtitle">(Charcuterie d’Antan)</div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- SECTION MENU ACCOMPAGNMENTS -->
+        <section class="extras" aria-label="Accompagnements">
+            <div>
+                <p class="item-label">
+                    SAUCISSON
+                    <span class="price">12,00€</span>
+                </p>
+            </div>
+            <div>
+                <p class="item-label">
+                    CHIPS
+                    <span class="price">2,00€</span>
+                </p>
+            </div>
+            <div>
+                <p class="item-label">
+                    FRITES ET SAUCES MAISON
+                <p class="menu-item-subtitle">
+                    (petite 2,50€ – grande 4,50€)
+                </p>
+            </div>
+        </section>
+
+        <div class="menu-item-subtitle">
+            <p>Origine des viandes : France <br> Prix nets TTC – service compris · Liste des allergènes disponible sur
+                demande.</p>
+        </div>
+    </div>
+
+    <!-- SECTION CARTE DU BAR -->
+
+    <div aria-label="Carte du bar">
+        <div class="menu-header">
+            <div class="brand" aria-label="Crêperie L’Arche Montrottier">
+                <img src="logo.png" alt="logo Crêperie L’Arche Montrottier" class="logo"/>
+            </div>
+
+            <div class="title-wrapper">
+                <span class="menu-title-line"></span><span class="menu-title-dot"></span>
+                <h1 class="title-menu">LA CARTE DU BAR</h1>
+                <span class="menu-title-dot"></span><span class="menu-title-line"></span>
+            </div>
+        </div>
+
+        <section class="container-menu" aria-label="menus">
+            <div class="menu-multiple">
+                <!-- SECTION BOISSONS FROIDES -->
+                <article class="menu-theme" aria-labelledby="boissons froides">
+                    <h2 class="menu-theme-title">Boissons froides</h2>
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label"> JUS DE FRUITS 25cl<span class="price">2,90€</span></p>
+                            <div class="item-description">Pomme, poire, tomate, ananas, fraise, orange, ace, abricot.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">SODA 33cl <span class="price">2,90€</span></p>
+                            <div class="item-description">
+                                Coca, Coca Zéro, Coca Cherry, Orangina, Lipton pêche, Oasis,
+                                Schweppes agrumes et tonic, fanta orange, limonade, Ginger beer.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p class="item-label"> MILKSHAKE 30cl - 3,50€ / 50cl <span class="price"> 5,80€</span></p>
+                            <div class="item-description">Pomme, poire, tomate, ananas, fraise, orange, ace, abricot.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">SIROP 20cl <span class="price">1,30€</span></p>
+                            <div class="item-description">
+                                Pêche, citron, orgeat, kiwi, grenadine, menthe verte,
+                                menthe glacial, fraise, anis, cassis, framboise, pulco citron, pulco orange .
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">DIABOLO 20cl<span class="price">2,00€</span></p>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="separator-line"></div>
+
+                <!-- SECTION BOISSONS CHAUDES -->
+                <article class="menu-theme" aria-labelledby="boissons chaudes">
+                    <h2 class="menu-theme-title">Boissons chaudes</h2>
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label">EXPRESSO (Café Cellini)<span class="price">1,30€</span></p>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">DÉCA <span class="price">1,40€</span></p>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">DOUBLE EXPRESSO<span class="price">2,60€</span></p>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">ALLONGÉ<span class="price">1,40€</span></p>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">LATTE<span class="price">2,80€</span></p>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">CAPPUCCINO<span class="price">3,00€</span></p>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">FLAT WHITE<span class="price">3,00€</span></p>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">CHAÏ LATTE<span class="price">4,50€</span></p>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">UBE LATTE<span class="price">4.80€</span></p>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">THÉ<span class="price">2,00€</span></p>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">CHOCOLAT CHAUD<span class="price">2,50€</span></p>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="separator-line"></div>
+
+                <!-- SECTION EAUX -->
+                <article class="menu-theme" aria-labelledby="eaux">
+                    <h2 class="menu-theme-title">Eaux</h2>
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label">PERRIER 33cl<span class="price">2,80€</span></p>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">VITTEL 1l<span class="price">4,00€</span></p>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">SAN PELLEGRINO 50cl<span class="price">3,00€</span> - 1l<span
+                                    class="price">4,00€</span></p>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">PAROT 1l<span class="price">2,80€</span></p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="menu-multiple">
+                <!-- SECTION COCKTAILS -->
+                <article class="menu-theme" aria-labelledby="cocktails">
+                    <h2 class="menu-theme-title">Cocktails</h2>
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label">SPRITZ<span class="price">7,00€</span></p>
+                            <div class="item-description">Apérol spritz, prosecco, eau pétillante.</div>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">SPRITZ St Germain<span class="price">9,00€</span></p>
+                            <div class="item-description">Liqueur de sureau, aperol, eau pétillante, prosecco.</div>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">LEMON SPRITZ<span class="price">7,50€</span></p>
+                            <div class="item-description">Liqueur de citron, prosecco, eau pétillante.</div>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">MOSCOW MULE<span class="price">7,50€</span></p>
+                            <div class="item-description">Vodka, ginger beer, citron vert.</div>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">MOJITO<span class="price">7,50€</span></p>
+                            <div class="item-description">Feuilles de menthe, sucre de canne, rhum, angostura, citron
+                                vert, eau pétillante.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">PIÑA COLADA<span class="price">7,50€</span></p>
+                            <div class="item-description">Rhum, jus d’ananas, lait de coco.</div>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">GIN TONIC <span class="price">8,00€</span></p>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">DAIQUIRI FRAISE<span class="price">8,00€</span></p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- SECTION MOCKTAILS -->
+                <article class="menu-theme" aria-labelledby="mocktails">
+                    <h2 class="menu-theme-title">mocktails</h2>
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label">VIRGIN MOJITO<span class="price">7,00€</span></p>
+                            <div class="item-description">Citron vert, sirop de rhum, feuilles de menthe, limonade, eau
+                                pétillante.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">VIRGIN COLADA<span class="price">7,00€</span></p>
+                            <div class="item-description">Sirop de sucre de canne, jus d’ananas, lait de coco.</div>
+                        </div>
+                        <div class="item">
+                            <p class="item-label">VIRGIN SPRITZ<span class="price">7,00€</span></p>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="separator-line"></div>
+
+                <!-- SECTION SPRIRITUEUX -->
+                <article class="menu-theme" aria-labelledby="whisky">
+                    <h2 class="menu-theme-title">Whisky 4cl <span class="price">7,00€</span></h2>
+                    <div class="item-description">Jack Daniels old, Jack Daniels honey, Chivas regal 12 ans.</div>
+                </article>
+                <article class="menu-theme" aria-labelledby="gins">
+                    <h2 class="menu-theme-title">Gins 4cl <span class="price">7,00€</span></h2>
+                    <div class="item-description">Bombay sapphire, Gibson’s, Hendrick’s.</div>
+                </article>
+                <article class="menu-theme" aria-labelledby="rhums">
+                    <h2 class="menu-theme-title">Rhums 4cl <span class="price">8,00€</span></h2>
+                    <div class="item-description">Don Papa, Kraken, Diplomatico, Havana Club.</div>
+                </article>
+                <article class="menu-theme" aria-labelledby="vodkas_autres">
+                    <h2 class="menu-theme-title">Vodkas & autre 4cl <span class="price">4,50€</span></h2>
+                    <div class="item-description">Eristoff, Captain Morgan, Ballantine’s.</div>
+                </article>
+            </div>
+
+            <div class="menu-multiple">
+                <!-- SECTION BOISSONS FROIDES -->
+                <article class="menu-theme" aria-labelledby="boissons froides">
+                    <h2 class="menu-theme-title">Boissons froides</h2>
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label"> JUS DE FRUITS 25cl<span class="price"> 2,90€</span></p>
+                            <div class="item-description">Œufs, fromage, jambon blanc, salade.</div>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="separator-line"></div>
+            </div>
+        </section>
+
+        <div class="menu-item-subtitle">
+            <p>Prix nets TTC – service compris - La vente d’alcool est interdite aux mineurs - L’abus d’alcool est
+                dangereux pour la santé.</p>
+        </div>
     </div>
 </main>
 </body>
