@@ -1,0 +1,227 @@
+<!-- START SECTION KRAMPOUZ -->
+<div class="accordion" aria-label="Carte krampouz">
+    <button class="accordion-header" aria-expanded="false">
+        <div class="title-wrapper">
+            <span class="menu-title-line"></span><span class="menu-title-dot"></span>
+            <h1 class="title-menu">KRAMPOUZ</h1>
+            <span class="menu-title-dot"></span><span class="menu-title-line"></span>
+        </div>
+    </button>
+
+    <div class="accordion-panel" aria-hidden="true">
+        <section class="container-menu" aria-label="menus">
+            <div class="menu">
+                <!-- SECTION MENU GALETTE -->
+                <article class="menu-theme" aria-labelledby="galettes">
+                    <h2 class="menu-theme-title">Galettes</h2>
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label">LA COMPLÈTE <span class="price">11,50€</span></p>
+                            <div class="item-description">Œufs, fromage, jambon blanc, salade.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">LA BACON <span class="price">13,50€</span></p>
+                            <div class="item-description">Bacon, oeufs, fromage, aïoli à l’ail noir, salade,
+                                avocat.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">LA SAUMON <span class="price">14,50€</span></p>
+                            <div class="item-description">Saumon fumé, citron, épinards, crème fraiche, salade.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">LA MONTAGNARDE <span class="price">15€</span></p>
+                            <div class="item-description">Raclette, jambon cru, pomme de terre à l’ail, oignon
+                                confits, cornichons, salade.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">LA CHÈVRE <span class="price">13,50€</span></p>
+                            <div class="item-description">Épinards, bûche de chèvre, tomates cerises rôties, avocat,
+                                pignons de pin, salade.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">LA BOURGUIGNONNE <span class="price">15,50€</span></p>
+                            <div class="item-description">Effiloché de boeuf au vin rouge, champignons, fromage,
+                                pommes de terre à l’ail, salade.
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="separator-line"></div>
+
+                <!-- SECTION COMPOSE GALETTE -->
+                <article class="menu-theme" aria-labelledby="compose_galette">
+                    <h2 class="menu-theme-title">Compose ta galette</h2>
+
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label">CHOISI LA BASE DE TA GALETTE <span class="price">5,50€</span></p>
+                            <div class="item-description">Salade verte et sauces au choix.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">CHOISI TES LÉGUMES <span class="price">+1,00€</span></p>
+                            <div class="item-description">Pommes de terre, tomates, avocat, oignons confits, tomates
+                                rôties, champignons, cornichons.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">CHOIX DES PROTÉINES <span class="price">+2,50€</span></p>
+                            <div class="item-description">Jambon blanc, jambon cru, saumon fumé, effiloché de bœuf,
+                                poulet mariné, œuf.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">CHOIX DES FROMAGES <span class="price">+1,50€</span></p>
+                            <div class="item-description">Chèvre, raclette, cheddar affiné.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">CHOIX DES EXTRAS <span class="price">+1,00€</span></p>
+                            <div class="item-description">Crème fraîche, pignons de pain, citron, miel, ail à l’ail
+                                noir.
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="separator-line mobile"></div>
+
+            <div class="menu">
+                <!-- SECTION COMPOSE SALADE -->
+                <article class="menu-theme" aria-labelledby="compose_salade">
+                    <h2 class="menu-theme-title">Compose ta salade</h2>
+
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label">CHOISI LA BASE DE TA SALADE<span class="price">5,50€</span></p>
+                            <div class="item-description">Salade verte et sauces au choix.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label"> CHOISI TES LÉGUMES <span class="price">+1,00€</span></p>
+                            <div class="item-description">Pommes de terre à l’ail, épinards, avocat, oignons
+                                confits, tomates rôties.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label"> CHOIX DES PROTÉINES <span class="price">+2,50€</span></p>
+                            <div class="item-description">Jambon blanc, jambon cru, saumon fumé, effiloché de boeuf,
+                                poulet fumé, oeuf.
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label"> CHOIX DES FROMAGES <span class="price">+1,50€</span></p>
+                            <div class="item-description">Chèvre, raclette, cheddar affiné, ricotta, fêta.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">CHOIX DES EXTRAS <span class="price">+1,00€</span></p>
+                            <div class="item-description">
+                                Crème fraiche, pignon de pain, citron, aïoli à l’ail noir<br>
+                                Beurre, citron, sucre
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="separator-line"></div>
+
+                <article class="menu-theme" aria-labelledby="crepes">
+                    <h2 class="menu-theme-title">Crêpes au froment</h2>
+
+                    <div class="items">
+                        <div class="item">
+                            <p class="item-label">CLASSIQUE <span class="price">5,00€</span></p>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">PÂTE À TARTINER <span class="price">6,50€</span></p>
+                            <div class="item-description">Crispy maison et chantilly maison.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">MIEL ET NOISETTES <span class="price">5,50€</span></p>
+                            <div class="item-description">Cannelle, chantilly maison.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">BANOFFEE <span class="price">6,50€</span></p>
+                            <div class="item-description">Caramel beurre salé, banane et chantilly maison.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label">CHOCOLAT <span class="price">6,50€</span></p>
+                            <div class="item-description">Chocolat noir 75%, glace vanille, amandes.</div>
+                        </div>
+
+                        <div class="item">
+                            <p class="item-label" style="color: #AF4327!important;">EXTRAS</p>
+                            <div class="item-description">
+                                Chocolat noir 75%, caramel beurre salé, glace, amandes, banane , cannelle, crispy
+                                maison, noisettes, chantilly maison.
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- SECTION MENU ENFANTS -->
+        <section class="extras" aria-label="Menu enfants">
+            <article class="menu-theme" aria-labelledby="menu_enfant">
+                <!-- SECTION MENU ENFANTS -->
+                <h2 class="menu-theme-title">
+                    Menu Enfant <span class="price">9,50€</span><br>
+                </h2>
+                <h3 class="item-label">Galette + boisson + mini crêpe</h3>
+
+                <div class="items">
+                    <div class="item">
+                        <p class="item-label">GALETTES AU CHOIX:</p>
+                        <div class="item-description">
+                            Jambon blanc et fromage<br>
+                            Poulet fumé et fromage<br>
+                            Épinards et chèvre
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <p class="item-label">“TU ES UN PETIT CHEF”</p>
+                        <div class="item-description">Compose ta galette</div>
+                    </div>
+
+                    <div class="item">
+                        <p class="item-label">CRÊPES SUCRÉ</p>
+                        <div class="item-description">
+                            Beurre et sirop d’érable ou miel local <span class="price">5,00€</span><br>
+                            Pâte à tartiner <span class="price">5,50€</span><br>
+                            Caramel beurre salé <span class="price">5,50€</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <div class="menu-item-subtitle">
+            <p>Origine des viandes : France <br> Prix nets TTC – service compris · Liste des allergènes disponible
+                sur
+                demande.</p>
+        </div>
+    </div>
+</div>
+<!-- END SECTION KRAMPOUZ -->
